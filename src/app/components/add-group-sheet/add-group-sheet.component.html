@@ -1,0 +1,13 @@
+<mat-card>
+    <div>        
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Group Name</mat-label>
+            <input matInput placeholder="ipso facto" [(ngModel)]="group_name">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Description</mat-label>
+            <input matInput placeholder="exempli gratia" [(ngModel)]="description">
+        </mat-form-field>
+    </div>
+</mat-card>
+  <button mat-raised-button color="primary" (click)="createGroup()">Save</button>
